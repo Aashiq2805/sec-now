@@ -4,7 +4,7 @@ import time
 
 
 #github access token being defined here
-ACCESS_TOKEN = 'b66597be3b9e7aa2b85fcd116aa7f6354734735e'
+ACCESS_TOKEN = '3c483466b20325641643dcada3aad4c6528ca24c'
 #twitter consumer tokens being defined here
 auth = tweepy.OAuthHandler("IUK4LzRRBjNZSPse0Yrh0ASzs", "R7wgP61StMDNKtSN71hWTj7ROjIa15m8643bfm9Cy8XsUG6BSR")
 #twitter access tokens being defined here
