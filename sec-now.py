@@ -4,7 +4,7 @@ import time
 
 
 #github access token being defined here
-ACCESS_TOKEN = 'f81832ed1576a05b15d3bfd8c0b4760c3f99c8a7'
+ACCESS_TOKEN = 'b66597be3b9e7aa2b85fcd116aa7f6354734735e'
 #twitter consumer tokens being defined here
 auth = tweepy.OAuthHandler("IUK4LzRRBjNZSPse0Yrh0ASzs", "R7wgP61StMDNKtSN71hWTj7ROjIa15m8643bfm9Cy8XsUG6BSR")
 #twitter access tokens being defined here
@@ -29,7 +29,7 @@ def search_github(keywords):
         #print(repo.clone_url)                                                                                    .                                                                                    
         #..........................................................................................................
         
-        #sleeping for 1 day before posting again
+        #sleeping for 6 hours before posting again
         #time.sleep(21600)
 
 if __name__ == '__main__':
