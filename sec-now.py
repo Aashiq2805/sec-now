@@ -12,7 +12,7 @@ auth.set_access_token("1226323598144458754-gAWJFxK7fzoioaPomxaUS7PemHhDIl", "MtM
 #twitter api call being set here
 api = tweepy.API(auth)
 #github api call being set here
-g = Github("Aashiq2805","Amma@2805")
+g = Github("LucyAnnaTwitter","hack the planet@123")
 
 #function to search github
 def search_github(keywords):
