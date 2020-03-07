@@ -4,7 +4,7 @@ import time
 
 
 #github access token being defined here
-ACCESS_TOKEN = 'bb0a9604734003c2d96515a40f4428958c29c814'
+#ACCESS_TOKEN = 'bb0a9604734003c2d96515a40f4428958c29c814'
 #twitter consumer tokens being defined here
 auth = tweepy.OAuthHandler("IUK4LzRRBjNZSPse0Yrh0ASzs", "R7wgP61StMDNKtSN71hWTj7ROjIa15m8643bfm9Cy8XsUG6BSR")
 #twitter access tokens being defined here
@@ -12,7 +12,7 @@ auth.set_access_token("1226323598144458754-gAWJFxK7fzoioaPomxaUS7PemHhDIl", "MtM
 #twitter api call being set here
 api = tweepy.API(auth)
 #github api call being set here
-g = Github(ACCESS_TOKEN)
+g = Github("Aashiq2805","Amma@2805")
 
 #function to search github
 def search_github(keywords):
