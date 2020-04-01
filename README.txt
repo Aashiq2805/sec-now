@@ -24,3 +24,5 @@ get_number_of_followers_of_followers = is a file that gets all the followers of 
 get_follower_data= gets data of followers that follow you such as when was their account created, age range etc. Note:this is a work in progress and features to be added
 
 follower_increrase = is a script that increases the number of followers you have by following all the followers of youe followers. Ex if a follows you and b and c follow a, now you will follow a, b and c increasing the chance they follow you back 
+
+twitter_worldwide_trending_hashtags = is a file that processes worldwide trends for hashtags across twitter giving us a comprehensive view of what is trending on twitter live
