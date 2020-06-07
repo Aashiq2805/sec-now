@@ -62,7 +62,7 @@ def print_data(result):
 
 def main():
     #keywords= get_keywords()
-    keywords="infosec" # for sake of supervisord we are running hardcoded input, can run prompt if needed
+    keywords="hacking" # for sake of supervisord we are running hardcoded input, can run prompt if needed
     keywords = [keyword.strip() for keyword in keywords.split(',')]    
     result=search_github(keywords)
     #print(result)
